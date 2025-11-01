@@ -1,0 +1,119 @@
+# ======================================
+# 🧠 BudgetOps AI – .gitignore Template
+# ======================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+*.manifest
+*.spec
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+.envrc
+.Python
+
+# --- Environment & Config ---
+.env
+.env.local
+.env.test
+.env.production
+*.key
+*.pem
+*.cert
+config.json
+supabase/config.py
+api/utils/config.py
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# --- Logs & Caches ---
+*.log
+logs/
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+__logs__/
+.cache/
+.tmp/
+*.bak
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+test-results/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/cache/
+frontend/__pycache__/
+frontend/.streamlit/
+
+# --- Supabase ---
+supabase/.temp/
+supabase/.cache/
+supabase/migrations/
+supabase/.env
+
+# --- Docker ---
+*.pid
+docker-compose.override.yml
+**/docker-compose.override.yml
+.dockerignore
+
+# --- Node / Frontend Assets (if Streamlit expands later) ---
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# --- Miscellaneous ---
+*.db
+*.sqlite3
+*.sqlite
+__snapshots__/
+archive/
+notes/
+tmp/
+temp/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Local Development Artifacts ---
+dev_tests/__pycache__/
+dev_tests/.pytest_cache/
+dev_tests/.coverage
+*.local
+*.bak
+*.old
